@@ -64,7 +64,9 @@ $(document).ready(() => {
         $("#end-date").text();
     });
 
-    const writeResultsToHTML = (resultsArray) => {
-
+    const writeResults = (resultsArray) => {
+        resultsArray.forEach((article)=>{
+            $("#results").append("<p>"+article.headline.main+"</p>");
+        })
     };
 });
