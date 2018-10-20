@@ -67,8 +67,4 @@ $(document).ready(() => {
     const writeResultsToHTML = (resultsArray) => {
 
     };
-
-    function writeResultsToHTML(resultsArray){
-        
-    }
 });
